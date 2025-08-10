@@ -16,11 +16,11 @@ The pipeline includes:
 ---
 
 ## Project Structure
-epiclock/
-code/ # All scripts
-data/ # Downloaded datasets
-results/ # Processed outputs & logs
-
+# epiclock/
+# code/ # All scripts
+# data/ # Downloaded datasets
+# results/ # Processed outputs & logs
+# logs/
 
 
 ---
@@ -28,7 +28,7 @@ results/ # Processed outputs & logs
 ## Installation
 
 ### 1️⃣ Clone the Repository
-```bash
+
 git clone https://github.com/Nabilatallah/epiclock.git
 cd epiclock
 
