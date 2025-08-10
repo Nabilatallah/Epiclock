@@ -23,10 +23,10 @@ The pipeline includes:
 
 ## Project Structure
 # epiclock/
-code/ # All scripts
-data/ # Downloaded datasets
-results/ # Processed outputs & logs
-logs/
+<br> code/ # All scripts
+<br> data/ # Downloaded datasets
+<br> results/ # Processed outputs & logs
+
 
 
 ---
