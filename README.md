@@ -1,6 +1,12 @@
 # Epiclock
  Epigenetic clocks, based on DNA methylation patterns, is a machine learning based powerful predictor of biological age and health outcomes.
+
 # 🧬 Epiclock: Machine Learning-Based Epigenetic Clock
+
+[![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/YourUsername/epiclock)](https://github.com/YourUsername/epiclock/commits/main)
+[![Issues](https://img.shields.io/github/issues/YourUsername/epiclock)](https://github.com/YourUsername/epiclock/issues)
 
 ## Overview
 Epiclock is a complete, reproducible pipeline for building and interpreting a **DNA methylation-based epigenetic clock** using the publicly available **GSE40279** dataset.  
