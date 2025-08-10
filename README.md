@@ -42,7 +42,7 @@ MIT License — see LICENSE file for details.
 Contact
 👤 Nabil Atallah
 📧 n.atallah@northeastern.edu
-🏛 Northeastern University, Boston, MA
+🏛 College of Science Northeastern University, Boston, MA
 
 
 
