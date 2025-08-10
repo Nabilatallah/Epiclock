@@ -17,11 +17,10 @@ The pipeline includes:
 
 ## Project Structure
 epiclock/
-├── code/ # All scripts
-│   
-├── data/ # Downloaded datasets
-├── results/ # Processed outputs & logs
-├── img/ # Plots and figures
+code/ # All scripts
+data/ # Downloaded datasets
+results/ # Processed outputs & logs
+
 
 
 ---
