@@ -5,8 +5,8 @@
 
 [![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Last Commit](https://img.shields.io/github/last-commit/YourUsername/epiclock)](https://github.com/YourUsername/epiclock/commits/main)
-[![Issues](https://img.shields.io/github/issues/YourUsername/epiclock)](https://github.com/YourUsername/epiclock/issues)
+[![Last Commit](https://img.shields.io/github/last-commit/YourUsername/epiclock)](https://github.com/Nabilatallah/epiclock/commits/main)
+[![Issues](https://img.shields.io/github/issues/YourUsername/epiclock)](https://github.com/Nabilatallah/epiclock/issues)
 
 ## Overview
 Epiclock is a complete, reproducible pipeline for building and interpreting a **DNA methylation-based epigenetic clock** using the publicly available **GSE40279** dataset.  
