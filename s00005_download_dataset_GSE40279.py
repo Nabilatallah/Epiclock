@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # s00005_download_dataset.py
 # Author: Nabil Atallah
+# Contact: n.atallah@northeastern.edu
 
 """
 GEO Dataset Downloader & Inspector (SOLID/OOP/CLI)
