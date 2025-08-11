@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# s00005_download_dataset.py
+# s00005_geo_inspector.py
 # Author: Nabil Atallah
 # Contact: n.atallah@northeastern.edu
 
@@ -18,7 +18,7 @@ saving a cached parsed object and phenotype summary for downstream analysis.
 - SOLID Principles implemented in this design
 
 Usage:
-  python s00005_download_dataset.py \
+  python s00005_geo_inspector.py \
     --geo_id GSE40279 \
     --sample_index 0
 
