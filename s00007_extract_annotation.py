@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # s00007_extract_annotation.py
-# Author: Nabil Atallah
+# Author: Nabil Atallah - 
+# Contact: n.atallah@northeastern.edu
 
 """
 Illumina 450k Annotation Extractor (SOLID/OOP/CLI)
