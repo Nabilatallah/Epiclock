@@ -1,0 +1,36 @@
+#!/bin/bash
+# save as push_epiclock.sh
+# Push /home/n.atallah/epiclock/ec01/final_code to GitHub Epiclock repo
+
+PROJECT_DIR="/home/n.atallah/epiclock/ec01/final_code"
+REPO_SSH="git@github.com:Nabilatallah/Epiclock.git"
+
+echo "📦 Navigating to project directory..."
+cd "$PROJECT_DIR" || { echo "❌ Directory not found: $PROJECT_DIR"; exit 1; }
+
+# Initialize repo if needed
+if [ ! -d ".git" ]; then
+    echo "🆕 Initializing Git repository..."
+    git init
+    git remote add origin "$REPO_SSH"
+else
+    echo "✅ Git repository already initialized."
+fi
+
+# Make sure remote URL is correct
+git remote set-url origin "$REPO_SSH"
+
+# Stage changes
+echo "➕ Adding files..."
+git add .
+
+# Commit changes
+echo "💾 Committing changes..."
+git commit -m "Update from final_code on $(date '+%Y-%m-%d %H:%M:%S')" || echo "⚠️ No changes to commit."
+
+# Push to GitHub
+echo "🚀 Pushing to GitHub..."
+git branch -M main
+git push -u origin main
+
+echo "✅ Done! Changes pushed to: $REPO_SSH"
